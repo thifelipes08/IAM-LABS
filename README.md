@@ -39,7 +39,7 @@ This repository documents my hands-on journey through Identity & Access Manageme
 ### 🔄 In Progress
 - SailPoint Identity Security Leader Badge
 
-### 🎯 Planned — Study Plan v7.4
+### 🎯 Planned — Study Plan
 
 **IGA (Identity Governance & Administration)**
 - SailPoint Identity Security Professional
