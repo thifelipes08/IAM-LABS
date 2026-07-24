@@ -1,50 +1,48 @@
-# IAM-LABS
-Identity &amp; Access Management Labs — IGA, PAM, AM, Cloud Identity Security
-
 # 🔐 IAM-LABS
 
-**Identity & Access Management — Hands-on Labs & Projects**
----
-## About
+> Identity & Access Management Labs — IGA, PAM, AM, Cloud Identity Security
 
-This repository documents my hands-on journey through Identity & Access Management (IAM), Identity Governance & Administration (IGA), and Privileged Access Management (PAM). Each folder contains practical labs, configurations, scripts, and documentation from real-world scenarios.
+Personal hands-on repository documenting my 99-week journey from IAM fundamentals to enterprise architecture.
 
 ---
 
-## Repository Structure
+## 📂 Repository Structure
 
-| Folder | Focus | Technologies |
-|--------|-------|-------------|
-| `01-fundamentals` | Linux user management, Active Directory, Access Control Models | Linux CLI, PowerShell, AD |
-| `02-protocols-and-federation` | SSO, SAML, OIDC, OAuth2, MFA | Keycloak, SAML 2.0, OpenID Connect |
-| `03-sailpoint` | IGA — Identity Governance & Administration | SailPoint IIQ, ISC, SCIM |
-| `04-cyberark` | PAM — Privileged Access Management | CyberArk Vault, PSM, CPM, PTA |
-| `05-microsoft-entra` | Cloud Identity & Access | Entra ID, Conditional Access, PIM |
-| `06-okta` | Access Management & Lifecycle | Okta OIE, SSO, MFA, Workflows |
-| `07-automation` | IAM Automation & Scripting | PowerShell, Python, REST API, SQL |
-| `08-comparatives` | Multi-vendor Analysis | Cross-platform comparisons |
-| `09-diagrams` | Architecture & Flows | Draw.io, Mermaid |
-| `10-integrated-project` | End-to-End IAM Implementation | All technologies combined |
+| # | Folder | Scope | Status |
+|---|--------|-------|--------|
+| 01 | [fundamentals](./01-fundamentals) | Core IAM/IGA concepts, identity lifecycle, access models | 🔴 |
+| 02 | [protocols-and-federation](./02-protocols-and-federation) | SAML, OAuth 2.0, OIDC, SCIM, Kerberos, LDAP | 🔴 |
+| 03 | [sailpoint](./03-sailpoint) | SailPoint ISC & IIQ — governance, connectors, workflows | 🔴 |
+| 04 | [cyberark](./04-cyberark) | CyberArk PAM — vault, sessions, rotation, Conjur | 🔴 |
+| 05 | [microsoft-entra](./05-microsoft-entra) | Entra ID, Active Directory, Conditional Access, PIM | 🔴 |
+| 06 | [okta](./06-okta) | Okta — SSO, MFA, OIN, Workflows, lifecycle | 🔴 |
+| 07 | [automation](./07-automation) | PowerShell, Python, REST APIs, SQL for IAM | 🔴 |
+| 08 | [comparatives](./08-comparatives) | Multi-vendor analysis & decision frameworks | 🔴 |
+| 09 | [diagrams](./09-diagrams) | Architecture diagrams (draw.io / Mermaid) | 🔴 |
+| 10 | [integrated-project](./10-integrated-project) | Enterprise IAM Architecture (capstone) | 🔴 |
+
+> 🔴 Not Started &nbsp; 🟡 In Progress &nbsp; 🟢 Complete
 
 ---
 
-## Certifications & Learning Path
+## 🎯 What This Repository Is
 
-### ✅ Obtained
-- SC-900 — Microsoft Security, Compliance, and Identity Fundamentals
-- CSCU — EC-Council Certified Secure Computer User
-- FCF — Fortinet Certified Fundamentals (NSE1 + NSE2)
-- ISO/IEC 20000 — IT Service Management
+| Purpose | Description |
+|---------|------------|
+| 📖 Study notes | Concepts explained in my own words |
+| 🔬 Lab docs | Configurations, outputs, lessons learned |
+| 🐍 Scripts | Python & PowerShell automation for IAM |
+| 📊 Comparatives | Vendor vs vendor with decision frameworks |
+| 🏗️ Projects | 5 portfolio projects (architecture → code → strategy) |
 
-### 🔄 In Progress
-- SailPoint Identity Security Leader Badge
+---
 
-### 🎯 Planned — Study Plan
+## 🏗️ Portfolio Projects
 
-**IGA (Identity Governance & Administration)**
-- SailPoint Identity Security Professional
-- Saviynt ISAA — Identity Security Awareness & Acumen
-
-**PAM (Privileged Access Management)**
-- CyberArk Trustee Level
-- CyberArk CDE — Privilege Cloud
+| # | Project | Type | Folder |
+|---|---------|------|--------|
+| 1 | IAM for Fictional Company | Conceptual design | `03-sailpoint` |
+| 2 | Multi-Vendor Comparison | Advisory analysis | `08-comparatives` |
+| 3 | Orphan Account Detector | Python + API automation | `07-automation` |
+| 4 | NHI Governance Policy | Strategic policy design | `01-fundamentals` |
+| 5 | Enterprise IAM Architecture | Full end-to-end design | `10-integrated-project` |
